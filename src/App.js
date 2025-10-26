@@ -78,7 +78,12 @@ END:VCARD`;
           </div>
           
           <div className="profile-motto">
-            "Be Protected - Stay Wealthy - For Generations"
+            "Be Protected - Stay Wealthy<br />For Generations"
+          </div>
+          
+          <div className="services-list">
+            <div className="service-category">• SIP • SWP • LIC</div>
+            <div className="service-category">• Medi-Claim</div>
           </div>
         </div>
 
