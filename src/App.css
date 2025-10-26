@@ -170,12 +170,23 @@ body::before {
   color: var(--text-secondary);
   font-size: 16px;
   line-height: 1.5;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
   animation: slideInUp 0.6s ease-out 0.4s both;
+}
+
+.profile-motto {
+  color: var(--primary-blue);
+  font-size: 15px;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 25px;
+  text-align: center;
+  line-height: 1.4;
+  animation: slideInUp 0.6s ease-out 0.5s both;
 }
 
 @keyframes slideInUp {
@@ -359,6 +370,10 @@ body::before {
 .btn-website { 
   background: linear-gradient(135deg, #3b82f6, #2563eb, #1d4ed8); 
   box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+}
+.btn-youtube { 
+  background: linear-gradient(135deg, #ff0000, #cc0000, #990000); 
+  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
 }
 .btn-instagram { 
   background: linear-gradient(135deg, #e4405f, #c13584, #833ab4); 

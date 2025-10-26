@@ -10,7 +10,8 @@ import {
   MapPin,
   Building,
   Download,
-  Star
+  Star,
+  Youtube
 } from 'lucide-react';
 
 // Import your images
@@ -73,7 +74,11 @@ END:VCARD`;
           
           <div className="profile-title">
             <Star size={18} />
-            Financial, Insurance & Corporate Risk Advisor
+            Sr. Advisor - Financial Planning, Insurance & Corporate Risk Management
+          </div>
+          
+          <div className="profile-motto">
+            "Be Protected - Stay Wealthy - For Generations"
           </div>
         </div>
 
@@ -130,6 +135,16 @@ END:VCARD`;
           >
             <Globe size={24} />
             Website
+          </a>
+          
+          <a
+            href="https://youtube.com/shorts/reZT6UZsnok?si=2Wp5n8FwgwXOObaM"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-btn btn-youtube"
+          >
+            <Youtube size={24} />
+            YouTube
           </a>
           
           <a
