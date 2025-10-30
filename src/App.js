@@ -82,8 +82,8 @@ END:VCARD`;
           </div>
           
           <div className="services-list">
-            <div className="service-category">• SIP • SWP • LIC</div>
-            <div className="service-category">• Medi-Claim</div>
+            <div className="service-category">LIC * SIP * SWP</div>
+            <div className="service-category">Mediclaim * PA</div>
           </div>
         </div>
 
